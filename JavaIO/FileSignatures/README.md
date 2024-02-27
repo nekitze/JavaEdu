@@ -7,7 +7,7 @@ If a signature cannot be defined, the execution result is UNDEFINED (no informat
 Example of program operation:
 
 ``` PowerShell
-$java Program
+$java Main
 -> C:/Users/Admin/images.png
 PROCESSED
 -> C:/Users/Admin/Games/WoW.iso
