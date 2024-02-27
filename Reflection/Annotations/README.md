@@ -1,6 +1,6 @@
 # Annotations
 
-There are implementation of HtmlProcessor class (derived fromAbstractProcessor) that processes classes with special @HtmlForm and @Htmlnput annotations and generates HTML form code inside the target/classes folder after executing mvn clean compile command. 
+There are implementation of HtmlProcessor class (derived fromAbstractProcessor) that processes classes with special @HtmlForm and @Htmlnput annotations and generates HTML form code inside the target/classes folder after executing ```mvn clean compile``` command. 
 Let's assume we have UserForm class:
 
 ```
