@@ -1,0 +1,5 @@
+CREATE TABLE product (
+    id BIGINT IDENTITY PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    price DECIMAL(10, 2) NOT NULL
+);
