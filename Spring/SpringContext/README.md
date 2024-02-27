@@ -5,6 +5,7 @@ Implementation of a loosely-coupled system comprised of a set of components (bea
 All settings for each component and links between them specified for Spring in context.xml file.
 
 UML diagram of classes is shown below:
+![Diagram of classes](/img/Diagram.png)
 
 An example of code using these classes in a standard way:
 ```
