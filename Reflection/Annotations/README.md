@@ -3,7 +3,7 @@
 There are implementation of HtmlProcessor class (derived fromAbstractProcessor) that processes classes with special @HtmlForm and @Htmlnput annotations and generates HTML form code inside the target/classes folder after executing ```mvn clean compile``` command. 
 Let's assume we have UserForm class:
 
-```
+``` Java
 @HtmlForm(fileName = “user_form.html”, action = “/users”, method = “post”)
 public class UserForm {
 	@HtmlInput(type = “text”, name = “first_name”, placeholder = “Enter First Name”)
