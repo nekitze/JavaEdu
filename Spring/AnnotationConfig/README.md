@@ -1,7 +1,7 @@
 # AnnotationConfig
 
 Project Features:
-- Spring application configured using annotations
+- Spring application configured using annotations and Config class.
 - Implemented UsersService/UsersServiceImpl interface/class pair with a dependency on UsersRepository declared in it.
 - Implemented signUp(String email)method that registers a new user and saves its details in DB.
 - Implemented an integration test for UsersServiceImp using an in-memory database (H2 or HSQLDB).
