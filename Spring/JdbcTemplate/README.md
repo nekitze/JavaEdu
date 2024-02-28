@@ -15,3 +15,17 @@ System.out.println(usersRepository.findAll());
 usersRepository = context.getBean("usersRepositoryJdbcTemplate", UsersRepository.class);
 System.out.println(usersRepository.findAll());
 ```
+
+Configure db.properties file:
+```
+db.url=jdbc:postgresql://localhost:5432/postgres
+db.user=postgres
+db.password=1234
+db.driver.name=org.postgresql.Driver
+```
+
+Run:
+```
+mvn package
+java -jar targer/Service.jar
+```
