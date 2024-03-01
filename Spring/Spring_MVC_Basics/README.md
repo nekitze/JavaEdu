@@ -7,5 +7,5 @@ In this project, the basics of Spring MVC were explored, namely:
 - Input forms
 - Data validation
 
-![Form](img/form.png)
-![Success](img/success.png)
+![Form](img/Form.png)
+![Success](img/Success.png)
