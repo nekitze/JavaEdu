@@ -8,12 +8,18 @@ In this project, the following approach was used to create a web application:
 - AspectJ for logging DAO methods (Simple logging to the console).
 - JSP + JSTL to implement the View component.
 
-
 Displaying a list of all employees with the ability to add, update and delete:
+
 ![Form](img/1.png)
+
 Adding a new employee:
+
 ![Add](img/2.png)
+
 Updating an existing employee:
+
 ![Update](img/3.png)
-Project structure:
-![Structure](img/4.png)
+
+Logging:
+
+![Logging](img/4.png)
